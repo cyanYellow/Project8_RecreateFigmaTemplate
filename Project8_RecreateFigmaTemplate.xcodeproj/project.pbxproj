@@ -11,6 +11,9 @@
 		8F24DE372AE0A566000C542D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F24DE362AE0A566000C542D /* ContentView.swift */; };
 		8F24DE392AE0A568000C542D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F24DE382AE0A568000C542D /* Assets.xcassets */; };
 		8F24DE3C2AE0A568000C542D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F24DE3B2AE0A568000C542D /* Preview Assets.xcassets */; };
+		8F24DE442AE0DA2F000C542D /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F24DE432AE0DA2F000C542D /* CardModel.swift */; };
+		8F24DE472AE0DB82000C542D /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F24DE462AE0DB82000C542D /* CardData.swift */; };
+		8F24DE492AE0DF1A000C542D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F24DE482AE0DF1A000C542D /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		8F24DE362AE0A566000C542D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F24DE382AE0A568000C542D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F24DE3B2AE0A568000C542D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F24DE432AE0DA2F000C542D /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		8F24DE462AE0DB82000C542D /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		8F24DE482AE0DF1A000C542D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,8 @@
 		8F24DE282AE0A566000C542D = {
 			isa = PBXGroup;
 			children = (
+				8F24DE452AE0DB6A000C542D /* Data */,
+				8F24DE422AE0DA09000C542D /* Model */,
 				8F24DE332AE0A566000C542D /* Project8_RecreateFigmaTemplate */,
 				8F24DE322AE0A566000C542D /* Products */,
 			);
@@ -53,6 +61,7 @@
 			children = (
 				8F24DE342AE0A566000C542D /* Project8_RecreateFigmaTemplateApp.swift */,
 				8F24DE362AE0A566000C542D /* ContentView.swift */,
+				8F24DE482AE0DF1A000C542D /* CardView.swift */,
 				8F24DE382AE0A568000C542D /* Assets.xcassets */,
 				8F24DE3A2AE0A568000C542D /* Preview Content */,
 			);
@@ -65,6 +74,22 @@
 				8F24DE3B2AE0A568000C542D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F24DE422AE0DA09000C542D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F24DE432AE0DA2F000C542D /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F24DE452AE0DB6A000C542D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8F24DE462AE0DB82000C542D /* CardData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F24DE372AE0A566000C542D /* ContentView.swift in Sources */,
+				8F24DE472AE0DB82000C542D /* CardData.swift in Sources */,
 				8F24DE352AE0A566000C542D /* Project8_RecreateFigmaTemplateApp.swift in Sources */,
+				8F24DE442AE0DA2F000C542D /* CardModel.swift in Sources */,
+				8F24DE492AE0DF1A000C542D /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
